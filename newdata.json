@@ -1,0 +1,98 @@
+var json_data = {
+    "name": "Risk",
+    "children": [
+      { 
+        "id":1,
+       "name": "Pillar 1",
+        "mandatory":true,
+        "definition":"definitions", 
+       "children": [
+        {
+         "name": "Risk Type 1",
+         "mandatory":false,
+         "definition":"definitions",
+         "children": [
+          {
+           "name": "Risk SubType a",
+           "mandatory":true,
+           "definition":"definitions"
+           
+          },
+          {
+           "name": "Risk SubType b",
+           "mandatory":false,
+           "definition":"definitions"
+           
+          },
+         
+         ]
+        },
+        {
+         "name": "Risk Type 2",
+         "children": [
+          {
+           "name": "Risk SubType a",
+           "mandatory":true,
+           "definition":"definitions"
+          
+          },
+          {
+           "name": "Risk SubType b",
+           "mandatory":false,
+           "definition":"definitions"
+          
+          },
+         
+         ]
+        }
+         
+       ]
+      },
+      {
+       "id":2,
+       "name": "Pillar 2",
+       "mandatory":true,
+       "definition":"definitions",
+       "children": [
+        {
+         "name": "Risk Type 1",
+         "mandatory":true,
+         "definition":"definitions",
+        
+         "children": [
+          {
+           "name": "Risk SubType a",
+           "mandatory":true,
+          "definition":"definitions" 
+          },
+          {
+           "name": "Risk SubType b",
+           "mandatory":false,
+           "definition":"definitions"
+          }
+         ]
+        },
+        {
+         "name":"Risk SubType 4",
+        
+         "children": [
+          {
+           "name": "Risk SubType a",
+           "mandatory":false,
+           "definition":"definitions"
+         
+           
+          },
+          {
+           "name": "Risk SubType c",
+           "mandatory":true,
+           "definition":"definitions"
+          
+          }
+         ]
+        }
+       ]
+      }
+    ]
+  
+} 
